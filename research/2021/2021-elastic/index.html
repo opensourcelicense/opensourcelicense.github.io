@@ -1,0 +1,1593 @@
+
+<!doctype html>
+<html lang="kr" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      <link rel="icon" href="../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.3.0, mkdocs-material-8.3.6">
+    
+    
+      
+        <title>진화하는 오픈소스 라이선스 (Elastic License 2.0) - 오픈소스 라이선스 전문가 커뮤니티</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.4a0965b7.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.cbb835fc.min.css">
+        
+      
+      
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../../..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="none" data-md-color-accent="none">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#elastic-license-20" class="md-skip">
+          콘텐츠로 이동
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="오픈소스 라이선스 전문가 커뮤니티" class="md-header__button md-logo" aria-label="오픈소스 라이선스 전문가 커뮤니티" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            오픈소스 라이선스 전문가 커뮤니티
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              진화하는 오픈소스 라이선스 (Elastic License 2.0)
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="검색" placeholder="검색" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="검색">
+        
+        <button type="reset" class="md-search__icon md-icon" aria-label="지우기" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            검색 초기화
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../../.." class="md-tabs__link">
+      Intro
+    </a>
+  </li>
+
+      
+        
+  
+  
+    
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../" class="md-tabs__link md-tabs__link--active">
+        Research
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="오픈소스 라이선스 전문가 커뮤니티" class="md-nav__button md-logo" aria-label="오픈소스 라이선스 전문가 커뮤니티" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    오픈소스 라이선스 전문가 커뮤니티
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        Intro
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2">
+          Research
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Research" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          Research
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../" class="md-nav__link">
+        2022년 연구 과제
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../2022-notice/" class="md-nav__link">
+        오픈소스SW 라이선스 고지문 작성 방법과 자동화 방안
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_3" type="checkbox" id="__nav_2_3" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_3">
+          2021
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="2021" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_3">
+          <span class="md-nav__icon md-icon"></span>
+          2021
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../" class="md-nav__link">
+        2021년 연구 과제
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          진화하는 오픈소스 라이선스 (Elastic License 2.0)
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        진화하는 오픈소스 라이선스 (Elastic License 2.0)
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="목차">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      목차
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1" class="md-nav__link">
+    1. 요약
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2" class="md-nav__link">
+    2. 오픈소스 라이선스 역사
+  </a>
+  
+    <nav class="md-nav" aria-label="2. 오픈소스 라이선스 역사">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    가. 유닉스
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#gpl" class="md-nav__link">
+    나. 자유소프트웨어 운동과 GPL
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#agpl" class="md-nav__link">
+    다. 네트워크 서비스 출현과 AGPL
+  </a>
+  
+    <nav class="md-nav" aria-label="다. 네트워크 서비스 출현과 AGPL">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-agpl-30" class="md-nav__link">
+    1) AGPL-3.0
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-mongodb-agpl" class="md-nav__link">
+    2) mongoDB의 AGPL 채택
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#strip-mining" class="md-nav__link">
+    라. Strip-Mining
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#strip-mining_1" class="md-nav__link">
+    마. Strip-mining을 막기 위한 라이선스 물결
+  </a>
+  
+    <nav class="md-nav" aria-label="마. Strip-mining을 막기 위한 라이선스 물결">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-source-available-license" class="md-nav__link">
+    1) 소스 가용 라이선스 (Source Available License)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-sspl" class="md-nav__link">
+    2) SSPL
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-elastic-aws" class="md-nav__link">
+    3. Elastic과 AWS의 충돌
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Elastic과 AWS의 충돌">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#elastic" class="md-nav__link">
+    가. Elastic 살펴 보기
+  </a>
+  
+    <nav class="md-nav" aria-label="가. Elastic 살펴 보기">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1_1" class="md-nav__link">
+    1) 역사
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-elasticsearch" class="md-nav__link">
+    2) ElasticSearch
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elastic_1" class="md-nav__link">
+    나. 초창기 Elastic 수익 구조
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elastic-aws" class="md-nav__link">
+    다. Elastic과 AWS와의 대립
+  </a>
+  
+    <nav class="md-nav" aria-label="다. Elastic과 AWS와의 대립">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-aws-2015-10-01" class="md-nav__link">
+    1) AWS (2015-10-01)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-elastic-2018-04-20" class="md-nav__link">
+    2) Elastic (2018-04-20)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-elastic-2018-10-05" class="md-nav__link">
+    3) Elastic 상장 (2018-10-05)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-aws-2019-03-11" class="md-nav__link">
+    4) AWS (2019-03-11)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-elastic-2019-03-12" class="md-nav__link">
+    5) Elastic (2019-03-12)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-elastic-2019-09-27" class="md-nav__link">
+    6) Elastic (2019-09-27)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#7-elastic-2021-01-15" class="md-nav__link">
+    7) Elastic (2021-01-15)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#8-osi-2021-01-19" class="md-nav__link">
+    8) OSI (2021-01-19)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#9-elastic-2021-01-20" class="md-nav__link">
+    9) Elastic (2021-01-20)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#10-aws-2021-01-21" class="md-nav__link">
+    10) AWS (2021-01-21)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#11-aws-2021-04-12" class="md-nav__link">
+    11) AWS / 2021-04-12
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#12-2021-06-23" class="md-nav__link">
+    12) 2021-06-23
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elastic-license-20-elv2" class="md-nav__link">
+    라. Elastic License 2.0 (ELv2)
+  </a>
+  
+    <nav class="md-nav" aria-label="라. Elastic License 2.0 (ELv2)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1_2" class="md-nav__link">
+    1) 특징
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2_1" class="md-nav__link">
+    2) 제한 사항
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3" class="md-nav__link">
+    3) 버전 별 라이선스 정책 변화
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-elastic-license-elastic" class="md-nav__link">
+    4) Elastic License에 대한 Elastic의 설명
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    마. 무엇이 옳은가?
+  </a>
+  
+    <nav class="md-nav" aria-label="마. 무엇이 옳은가?">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-amazon" class="md-nav__link">
+    1) Amazon의 주장이 옳은가?
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-elastic" class="md-nav__link">
+    2) Elastic의 주장이 옳은가?
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3_1" class="md-nav__link">
+    3) 오픈소스 생태계를 고려하는게 맞나?
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    바. 다른 사례가 있다면?
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4" class="md-nav__link">
+    4. 어쨌든 진화하는 오픈소스 라이선스
+  </a>
+  
+    <nav class="md-nav" aria-label="4. 어쨌든 진화하는 오픈소스 라이선스">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fair-code-httpsfaircodeio" class="md-nav__link">
+    가. Fair Code : https://faircode.io/
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#polyform-project" class="md-nav__link">
+    나. PolyForm Project
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#shard-source-software" class="md-nav__link">
+    다. 오픈소스 이후 시대가 시작되었다, "Shard Source Software"
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5" class="md-nav__link">
+    5. 마치며
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="목차">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      목차
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1" class="md-nav__link">
+    1. 요약
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2" class="md-nav__link">
+    2. 오픈소스 라이선스 역사
+  </a>
+  
+    <nav class="md-nav" aria-label="2. 오픈소스 라이선스 역사">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    가. 유닉스
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#gpl" class="md-nav__link">
+    나. 자유소프트웨어 운동과 GPL
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#agpl" class="md-nav__link">
+    다. 네트워크 서비스 출현과 AGPL
+  </a>
+  
+    <nav class="md-nav" aria-label="다. 네트워크 서비스 출현과 AGPL">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-agpl-30" class="md-nav__link">
+    1) AGPL-3.0
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-mongodb-agpl" class="md-nav__link">
+    2) mongoDB의 AGPL 채택
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#strip-mining" class="md-nav__link">
+    라. Strip-Mining
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#strip-mining_1" class="md-nav__link">
+    마. Strip-mining을 막기 위한 라이선스 물결
+  </a>
+  
+    <nav class="md-nav" aria-label="마. Strip-mining을 막기 위한 라이선스 물결">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-source-available-license" class="md-nav__link">
+    1) 소스 가용 라이선스 (Source Available License)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-sspl" class="md-nav__link">
+    2) SSPL
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-elastic-aws" class="md-nav__link">
+    3. Elastic과 AWS의 충돌
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Elastic과 AWS의 충돌">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#elastic" class="md-nav__link">
+    가. Elastic 살펴 보기
+  </a>
+  
+    <nav class="md-nav" aria-label="가. Elastic 살펴 보기">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1_1" class="md-nav__link">
+    1) 역사
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-elasticsearch" class="md-nav__link">
+    2) ElasticSearch
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elastic_1" class="md-nav__link">
+    나. 초창기 Elastic 수익 구조
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elastic-aws" class="md-nav__link">
+    다. Elastic과 AWS와의 대립
+  </a>
+  
+    <nav class="md-nav" aria-label="다. Elastic과 AWS와의 대립">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-aws-2015-10-01" class="md-nav__link">
+    1) AWS (2015-10-01)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-elastic-2018-04-20" class="md-nav__link">
+    2) Elastic (2018-04-20)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-elastic-2018-10-05" class="md-nav__link">
+    3) Elastic 상장 (2018-10-05)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-aws-2019-03-11" class="md-nav__link">
+    4) AWS (2019-03-11)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-elastic-2019-03-12" class="md-nav__link">
+    5) Elastic (2019-03-12)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-elastic-2019-09-27" class="md-nav__link">
+    6) Elastic (2019-09-27)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#7-elastic-2021-01-15" class="md-nav__link">
+    7) Elastic (2021-01-15)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#8-osi-2021-01-19" class="md-nav__link">
+    8) OSI (2021-01-19)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#9-elastic-2021-01-20" class="md-nav__link">
+    9) Elastic (2021-01-20)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#10-aws-2021-01-21" class="md-nav__link">
+    10) AWS (2021-01-21)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#11-aws-2021-04-12" class="md-nav__link">
+    11) AWS / 2021-04-12
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#12-2021-06-23" class="md-nav__link">
+    12) 2021-06-23
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elastic-license-20-elv2" class="md-nav__link">
+    라. Elastic License 2.0 (ELv2)
+  </a>
+  
+    <nav class="md-nav" aria-label="라. Elastic License 2.0 (ELv2)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1_2" class="md-nav__link">
+    1) 특징
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2_1" class="md-nav__link">
+    2) 제한 사항
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3" class="md-nav__link">
+    3) 버전 별 라이선스 정책 변화
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-elastic-license-elastic" class="md-nav__link">
+    4) Elastic License에 대한 Elastic의 설명
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    마. 무엇이 옳은가?
+  </a>
+  
+    <nav class="md-nav" aria-label="마. 무엇이 옳은가?">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-amazon" class="md-nav__link">
+    1) Amazon의 주장이 옳은가?
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-elastic" class="md-nav__link">
+    2) Elastic의 주장이 옳은가?
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3_1" class="md-nav__link">
+    3) 오픈소스 생태계를 고려하는게 맞나?
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    바. 다른 사례가 있다면?
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4" class="md-nav__link">
+    4. 어쨌든 진화하는 오픈소스 라이선스
+  </a>
+  
+    <nav class="md-nav" aria-label="4. 어쨌든 진화하는 오픈소스 라이선스">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fair-code-httpsfaircodeio" class="md-nav__link">
+    가. Fair Code : https://faircode.io/
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#polyform-project" class="md-nav__link">
+    나. PolyForm Project
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#shard-source-software" class="md-nav__link">
+    다. 오픈소스 이후 시대가 시작되었다, "Shard Source Software"
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5" class="md-nav__link">
+    5. 마치며
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+
+
+<h1 id="elastic-license-20">진화하는 오픈소스 라이선스 (Elastic License 2.0)</h1>
+<p>연구자 : 장학성</p>
+<h2 id="1">1. 요약</h2>
+<p>1990년대 만들어진 GPL-2.0에 이어 2007년 AGPL-3.0이 나오고, 클라우드 서비스의 확산과 함께 SSPL까지 만들어진 배경에 대해 살펴본다. 이에 그치지 않고, Elastic이 대표적인 클라우드 서비스 프로바이더인 AWS와 대립하며 Elastic License 2.0이라는 새로운 라이선스를 만든 과정을 조사하고, 나아가서 새로운 트렌드가 되고 있는 소스 공유 라이선스에 대해 알아본다. </p>
+<p>(참고) <em>"<a href="https://www.coss.community/cossc/elastic-license-2-0-and-the-evolution-of-open-source-licensing-3jb3">Elastic License 2.0 and the Evolution of Open Source Licensing</a>"</em></p>
+<h2 id="2">2. 오픈소스 라이선스 역사</h2>
+<h3 id="_1">가. 유닉스</h3>
+<p>UNIX는 1973년 AT&amp;T 벨연구소에서 발표하였다. 1950년대 AT&amp;T가 IBM과 맺은 협약(컴퓨터 사업 진출 불가)때문에 저렴한 가격($99)으로 소스코드와 함께 제공하였다. 또한 버클리대학에 연구목적으로 무료로 제공하였다. </p>
+<p>1977년, 버클리 대학에서는 일종의 UNIX 확장판인 BSD (Berkeley Software Distribution) 개발하여 이미 UNIX를 구매한 기관/개인에게 저장매체 (30개의 테이프) 비용과 배송비만 받고 무료로 제공하였다. 1983년, AT&amp;T가 쪼개지면서 UNIX를 상업적으로 판매가 가능해졌고, $99인 가격이 $250,000로 인상되었다. BSD를 사용하려는 회사 입장에서 UNIX 라이선스를 구매하기는 부담이 됐다. 1986년, CSRG(Computer Systems Research Group)는 BSD 네트워킹 코드만 따로 분리해서 UNIX 라이선스 없이 사용할 수 있는 BSD Networking Release를 공개하였고, BSD 라이선스를 적용하였다. 그리고, 1991년, CSRG는 UNIX 코드를 제거한 BSD UNIX를 출시하여 무료로 제공하였다. 이에 심기가 불편해진 AT&amp;T가 저작권 침해로 고소하였고, BSD측도 AT&amp;T UNIX에 포함된 BSD 코드에 대하여 맞고소하였다. 결국, 1994년, 각자 UNIX를 판매할 수 있도록 합의하였으나, 소송 기간 동안 BSD UNIX가 배포되지 못하면서, 완전한 BSD UNIX가 나오기까지 2년여의 시간이 낭비되었다. 각 업체별로 각자 수정한 운영체제를 사용하며 많은 종류로 쪼개지고, 그 사이 리눅스가 탄생한다. </p>
+<p><img alt="2021-img/2021-elastic.png" src="../2021-img/2021-elastic.png" /></p>
+<p><a href="https://upload.wikimedia.org/wikipedia/commons/c/c5/Unix_timeline.en.png">https://upload.wikimedia.org/wikipedia/commons/c/c5/Unix_timeline.en.png</a></p>
+<h3 id="gpl">나. 자유소프트웨어 운동과 GPL</h3>
+<p>1984년, 리차드 스톨만은 이맥스 편집기 GNU 버전을 개발하였다. 그리고, 1985년 Free Software Foundation을 설립하여 사유화되는 유닉스를 대체하고자 하였다. 그는 소스 코드에 대한 접근, 개선 및 변경 사항을 만들고 공유할 수 있는 권리 주장하였고, GPL (GNU General Public) License를 만들어서 바이너리 배포자는 해당 소스 코드를 공유해야 한다고 주장하였다. 당시 대부분의 소프트웨어는 직접 설치(on-premise) 방식이기 때문에 GPL 효과적은 효과적인 라이선스였다. </p>
+<h3 id="agpl">다. 네트워크 서비스 출현과 AGPL</h3>
+<p>2000년대 이후 네트워크 서비스가 보편화되면서 더 이상 소프트웨어를 배포하지 않고도 고객에게 서비스를 제공할 수 있게 되었다. 이에 대응하기 위해 Free Software Foundation은 GPL을 부분 변경한 AGPL-3.0을 만들었다</p>
+<h5 id="1-agpl-30">1) AGPL-3.0</h5>
+<p>AGPL-3.0은 GPL-3.0에 13조, Remote Network Interaction 조항을 추가한 라이선스이다. </p>
+<pre><code>💡 13. Remote Network Interaction; Use with the GNU General Public License.
+
+Notwithstanding any other provision of this License, if you modify the 
+Program, your modified version must prominently offer all users interacting 
+with it remotely through a computer network (if your version supports 
+such interaction) an opportunity to receive the Corresponding Source of 
+your version by providing access to the Corresponding Source from a 
+network server at no charge, through some standard or customary means 
+of facilitating copying of software. This Corresponding Source shall 
+include the Corresponding Source for any work covered by version 3 of 
+the GNU General Public License that is incorporated pursuant to the 
+following paragraph.
+</code></pre>
+<ul>
+<li>Computer network을 통해 remote로 interacting하는 모든 user에게 source code 제공 요구</li>
+<li>오픈소스를 이용하여 Network으로 서비스할 때, 개선한 소스 코드의 공유를 강제하기 위함</li>
+</ul>
+<p><img alt="2021-img/2021-elastic1.png" src="../2021-img/2021-elastic1.png" /></p>
+<p>참고로 Google에서는 AGPL하 오픈소스의 사용을 금지한다. (AGPL 뿐만 아니라, SSPL도 불허)</p>
+<p><img alt="2021-img/2021-elastic2.png" src="../2021-img/2021-elastic2.png" /></p>
+<p><a href="https://opensource.google/docs/thirdparty/licenses/#agpl-affero-gpl-osl-and-sspl-not-allowed">https://opensource.google/docs/thirdparty/licenses/#agpl-affero-gpl-osl-and-sspl-not-allowed</a></p>
+<p>Google은 회사의 핵심 제품이 원격 네트워크 인터페이스 (검색, Gmail, 지도, YouTube)를 통해 사용자와 상호작용하는 제품으로 구성되고, 이로 인해 AGPL이 예기치 않은 위험을 유발할 수 있기 때문에 AGPL-3.0 소프트웨어의 사용을 불허한다고 밝히고 있다. </p>
+<p><img alt="https://opensource.google/docs/using/agpl-policy/" src="../2021-img/2021-elastic3.png" /></p>
+<p><a href="https://opensource.google/docs/using/agpl-policy/">https://opensource.google/docs/using/agpl-policy/</a></p>
+<h4 id="2-mongodb-agpl">2) mongoDB의 AGPL 채택</h4>
+<p><img alt="https://www.mongodb.com/community/licensing" src="../2021-img/2021-elastic4.png" /></p>
+<p><a href="https://www.mongodb.com/community/licensing">https://www.mongodb.com/community/licensing</a></p>
+<p>2009년, mongoDB도 네트워크 서비스라는 loophole을 메우기 위해 APGL-3.0 라이선스를 적용하였다(Dual License 모델 : AGPL or 상용 ). </p>
+<p>당시 AGPL을 활용한 Dual License 비즈니스 모델은 상당히 유용하였다. </p>
+<h3 id="strip-mining">라. Strip-Mining</h3>
+<p>2010년대 Cloud 서비스가 발전하면서 AGPL 듀얼 라이선스 모델도 압박을 받기 시작하였다. AWS등의 대형 Cloud Service Provider가 오픈소스를 무료로 가져다가 Plug and Play 형태로 제공하며 수익 창출하였던 것이다. </p>
+<ul>
+<li>
+<p>예: Amazon DocumentDB(MongoDB 호환)</p>
+<p><img alt="https://aws.amazon.com/documentdb/" src="../2021-img/2021-elastic5.png" /></p>
+<p><a href="https://aws.amazon.com/ko/documentdb/">https://aws.amazon.com/documentdb/</a></p>
+</li>
+</ul>
+<p>mongoDB도 Cloud Service를 제공하지만, Cloud Service Provider의 고객은 기존 계약 방식으로 손쉽게 사용할 수 있는 Cloud Service Provicer의 서비스를 선택하였다. </p>
+<p><img alt="https://www.mongodb.com/cloud" src="../2021-img/2021-elastic6.png" /></p>
+<p><a href="https://www.mongodb.com/cloud">https://www.mongodb.com/cloud</a></p>
+<p>Modified Program에 한하여 소스 공개를 요구하는 AGPL로는 mongoDB의 수익 악화를 막을 수가 없었다. 이와 같이 오픈소스 상용 기업의 오픈소스 제품은 대형 Cloud Service Provider가 무료로 갖다 쓰기 좋은 먹잇감이 되버렸다("Strip-Mining"). </p>
+<p><img alt="https://steemkr.com/kr/@syjk96/3r449k" src="../2021-img/2021-elastic7.png" /></p>
+<p><a href="https://steemkr.com/kr/@syjk96/3r449k">https://steemkr.com/kr/@syjk96/3r449k</a></p>
+<h3 id="strip-mining_1">마. Strip-mining을 막기 위한 라이선스 물결</h3>
+<h4 id="1-source-available-license">1) 소스 가용 라이선스 (Source Available License)</h4>
+<p>AWS 등 Cloud Service Provider가 오픈소스로 서비스를 하면서 계속 인기를 얻자, 2018년 오픈소스 업계는 새로운 돌파구를 찾는다. 바로, 라이선스 변경의 물결이 시작된다. 2018년 이후 발생한 라이선스 변경의 물결 속에 출시된 거의 모든 라이선스는 비슷한 제한을 갖고 있다. 2018년부터 Redis Labs, Cockroach Labs, Confluent 및 MongoDB 등 최소 4개 이상의 수십억 달러 규모의 회사가 소프트웨어 라이선스를 변경하였고, 이는 AWS의 대규모 고객 기반 소프트웨어 재판매 차단하기 위해서이다. </p>
+<ul>
+<li><a href="https://www.mongodb.com/licensing/server-side-public-license">SSPL</a></li>
+<li><a href="https://commonsclause.com/">Commons Clause</a></li>
+<li><a href="https://redislabs.com/legal/licenses/">Redis</a></li>
+<li><a href="https://www.confluent.io/confluent-community-license">Confluent</a></li>
+<li><a href="https://www.cockroachlabs.com/cockroachdb-community-license/">CockroachDB</a></li>
+<li><a href="https://www.elastic.co/kr/licensing/elastic-license/">Elastic License</a></li>
+</ul>
+<p>각각 고유한 조건이 있지만, 이들은 모두 사용자가 소프트웨어를 무료로 사용할 수 있도록 허용하는 동시에 경쟁 호스팅 서비스 제공 업체들의 소프트웨어 사용을 금지하는 데 초점을 맞추고 있다. 이 중 몇가지 라이선스를 보다 자세히 다뤄본다. </p>
+<h4 id="2-sspl">2) SSPL</h4>
+<p>SSPL은 MongoDB가 만든 소스 공유 라이선스 (Source Available License)이다. : <a href="https://www.mongodb.com/licensing/server-side-public-license">https://www.mongodb.com/licensing/server-side-public-license</a></p>
+<p>mongoDB는 Dual License 모델을 (AGPL or 상용)에서 (SSPL or 상용) 으로 변경하였다. SSPL은 AGPL-3.0과 13조만 다르다. </p>
+<pre><code>📖 13. Offering the Program as a Service.
+
+If you make the functionality of the Program or a modified version 
+available to third parties as a service, you must make the Service
+Source Code available via network download to everyone at no charge, 
+under the terms of this License. Making the functionality of the 
+Program or modified version available to third parties as a service 
+includes, without limitation, enabling third parties to interact with 
+the functionality of the Program or modified version remotely 
+through a computer network, offering a service the value of which 
+entirely or primarily derives from the value of the Program or modified 
+version, or offering a service that accomplishes for users the primary 
+purpose of the Program or modified version.
+
+“Service Source Code” means the Corresponding Source for the Program 
+or the modified version, and the Corresponding Source for all programs 
+that you use to make the Program or modified version available as a 
+service, including, without limitation, management software, user 
+interfaces, application program interfaces, automation software, 
+monitoring software, backup software, storage software and hosting 
+software, all such that a user could run an instance of the service 
+using the Service Source Code you make available.
+
+</code></pre>
+<p>SSPL의 13조는 다른 사람에게 제품을 서비스로 제공(SaaS : Software-as-a-Service)하는 경우, Service Source Code도 공개할 것을 요구한다. 여기서 Service Source Code란 서비스를 위한 관리 계층의 모든 소스 코드와 수정 사항을 의미하며, 이는 AGPL보다 소스 코드 공개 조건 훨씬 광범위하다. SSPL은 OSI (Open Source Initiative : <a href="https://opensource.org/">https://opensource.org/</a>)의 승인을 받지 못하였다. </p>
+<p>여기까지 발전하는 기술과 이익 충돌에 인한 오픈소스 라이선스의 변경 역사에 대해 간단히 알아보았다. </p>
+<p>이후에는 Elastic이 ElasticSearch 등의 제품을 Elastic License 2.0으로 라이선스를 변경한 배경과 AWS와의 대립하는 상황과 시사점에 대해 설명한다.</p>
+<hr />
+<h2 id="3-elastic-aws">3. Elastic과 AWS의 충돌</h2>
+<h3 id="elastic">가. Elastic 살펴 보기</h3>
+<h4 id="1_1">1) 역사</h4>
+<p>Shay Banon은 2009년 개인 프로젝트로 ElasticSearch를 개발하기 시작하였고, 2010년 ElasticSearch를 Apache-2.0 라이선스를 적용하여 오픈소스로 공개하였다. (<a href="https://www.elastic.co/kr/blog/you-know-for-search">https://www.elastic.co/kr/blog/you-know-for-search</a>), 그리고, 2012년 Elastic사를 설립하였다.</p>
+<p>Elastic의 주요 제품은 Elastic Stack (Elasticsearch, Kibana, Beats, Logstash)이며 전부 Apache-2.0하의 오픈소스였다. </p>
+<p><img alt="http://kimjmin.net/2020/06/2020-06-elastic-devrel/" src="../2021-img/2021-elastic8.png" /></p>
+<p><a href="http://kimjmin.net/2020/06/2020-06-elastic-devrel/">http://kimjmin.net/2020/06/2020-06-elastic-devrel/</a></p>
+<h4 id="2-elasticsearch">2) ElasticSearch</h4>
+<p>이중 대표적인 제품인 Elasticsearch의 주요 특징은 다음과 같다. </p>
+<ul>
+<li>Apache Lucene (루씬) 기반 분산형 검색 엔진</li>
+<li>비관계형 데이터베이스와 유사</li>
+<li>매우 빠른 검색 속도 → 각종 분석에서 기본이 되는 엔진</li>
+<li>RESTful API 제공 - 데이터를 넣으면 API로 바로 Json 형태로 데이터 사용</li>
+</ul>
+<p><img alt="https://engineering.linecorp.com/ko/blog/excel-to-elastic/" src="../2021-img/2021-elastic9.png" /></p>
+<p><a href="https://engineering.linecorp.com/ko/blog/excel-to-elastic/">https://engineering.linecorp.com/ko/blog/excel-to-elastic/</a></p>
+<p>ElasticSearch는 오픈소스이므로 다양한 기능의 플러그인이 많이 나와 있다. </p>
+<p>Elastic은 Cloud Service 형태로도 ElasticSearch를 제공한다. </p>
+<h3 id="elastic_1">나. 초창기 Elastic 수익 구조</h3>
+<p>Elastic의 주요 수익 구조는 다음 세가지 형태로 구분된다. </p>
+<ol>
+<li>
+<p>유료 솔루션 제공 </p>
+<p>먼저, 오픈소스 외에 유료 솔루션을 제공하였다. </p>
+<ul>
+<li>Elastic Enterprise Search (App Search, Workspace Search)</li>
+<li>Elastic Observability</li>
+<li>Elastic Security</li>
+<li>Cloud 서비스 제공</li>
+</ul>
+<p>위에서도 잠깐 언급했지만, Elasticsearch등 주요 제품을 Cloud 서비스로 제공한다. </p>
+</li>
+<li>
+<p>기술지원
+그리고 유상 기술 지원을 제공한다. </p>
+</li>
+</ol>
+<h3 id="elastic-aws">다. Elastic과 AWS와의 대립</h3>
+<h4 id="1-aws-2015-10-01">1) AWS (2015-10-01)</h4>
+<p>AWS는 2015년 10월, Amazon Elasticsearch Service를 발표하였다. : <a href="https://aws.amazon.com/ko/blogs/aws/new-amazon-elasticsearch-service/">https://aws.amazon.com/ko/blogs/aws/new-amazon-elasticsearch-service/</a></p>
+<p>Apache-2.0인 Elasticsearch로 유료 service 제공한 것인데 이는 저작권 측면의 법적 문제는 없다고 볼 수 있다. 여기서는 일단 상표권은 논외로 한다. </p>
+<p>2021-img/2021-elastic10.png)</p>
+<p>그런데, 이때 Amazon의 CTO가 이는 Elastic과 AWS의 훌륭한 파트너십에 의한 결과물이었다고 자평하였으나, 정작 Elastic은 AWS와 협업한 바가 없다고 부인하는 일이 발생한다. </p>
+<p><img alt="https://www.elastic.co/kr/blog/why-license-change-AWS" src="../2021-img/2021-elastic11.png" /></p>
+<p><a href="https://www.elastic.co/kr/blog/why-license-change-AWS">https://www.elastic.co/kr/blog/why-license-change-AWS</a></p>
+<h4 id="2-elastic-2018-04-20">2) Elastic (2018-04-20)</h4>
+<p>위의 Strip mining을 막기위한 라이선스 물결에서 말했듯이, Elastic은 Elastic License 1.0 (<a href="https://github.com/elastic/beats/blob/master/licenses/ELASTIC-LICENSE.txt">https://github.com/elastic/beats/blob/master/licenses/ELASTIC-LICENSE.txt</a>)을 발표하며 라이선스 정책을 변경한다. 이는 Elastic 코드를 AWS Elasticsearch Service와 같은 Service 형태로 재판매하는 것을 금지하기 위해서였다. Elastic은 Elasticsearch 6.3 버전부터 확장 기능에 대해 Elastic License 적용하였고, 기본 기능은 여전히 기본 기능은 여전히 Apache-2.0 유지하였다. </p>
+<p><img alt="http://kimjmin.net/2018/08/2018-08-install-security-over-es63/" src="../2021-img/2021-elastic12.png" /></p>
+<p><a href="http://kimjmin.net/2018/08/2018-08-install-security-over-es63/">http://kimjmin.net/2018/08/2018-08-install-security-over-es63/</a></p>
+<p><img alt="http://kimjmin.net/2020/06/2020-06-elastic-devrel/" src="../2021-img/2021-elastic13.png" /></p>
+<p><a href="http://kimjmin.net/2020/06/2020-06-elastic-devrel/">http://kimjmin.net/2020/06/2020-06-elastic-devrel/</a></p>
+<ul>
+<li>Free / Open (오픈소스) : Apache-2.0</li>
+<li>Free / Basic (기본) : Elastic License 1.0</li>
+</ul>
+<h4 id="3-elastic-2018-10-05">3) Elastic 상장 (2018-10-05)</h4>
+<p>같은 해 Elastic은 상장을 한다. 상장은 곧 기업에게 수익을 창출 해야 한다는 압박이 되곤 한다. </p>
+<p><img alt="© 2018 블룸버그 파이낸스 LP" src="../2021-img/2021-elastic14.png" /></p>
+<p>© 2018 블룸버그 파이낸스 LP</p>
+<h4 id="4-aws-2019-03-11">4) AWS (2019-03-11)</h4>
+<p>AWS는 Elasticsearch에 너무 많은 Elastic의 독점 코드가 섞이면서 오픈소스 사용자를 혼란에 빠트리고, 프로젝트 관리가 어렵다며 Elastic License에 대하여 불만을 재기 하였다. 그리고 별도의 Repository를 구축하겠다고 선언하였다. 바로 "Open Distro for Elasticsearch"이다. </p>
+<p><img alt="https://opendistro.github.io/for-elasticsearch/" src="../2021-img/2021-elastic15.png" /></p>
+<p><a href="https://opendistro.github.io/for-elasticsearch/">https://opendistro.github.io/for-elasticsearch/</a></p>
+<p>이때 AWS는 다음과 같은 주장으로 Open Distro for Elasticsearch가 필요함을 설명하였다. : <a href="https://aws.amazon.com/ko/blogs/opensource/keeping-open-source-open-open-distro-for-elasticsearch/">https://aws.amazon.com/ko/blogs/opensource/keeping-open-source-open-open-distro-for-elasticsearch/</a></p>
+<ul>
+<li>Elasticsearch가 처음에는 순수한 오픈소스였으나 일부 내용에 독점 기술이 추가되고 있다.</li>
+<li>오픈소스 Elasticsearch 혁신을 유지하기 위해 AWS는 Elasticsearch용 Open Distro for Elasticsearch를 시작한다.</li>
+<li>Open Distro for Elasticsearch에서는 Elasticsearch의 상용 기능인 X-Pack에 포함된 보안 등의 기능 포함한 코드를 모두 Apache-2.0으로 공개한다.</li>
+<li>다만, 이는 Elasticsearch를 fork한 건 아니며, 모든 변경 사항을 다시 Elasticsearch에 upstream pull request할 것이다.</li>
+</ul>
+<h4 id="5-elastic-2019-03-12">5) Elastic (2019-03-12)</h4>
+<p>바로 다음날, Elastic은 이에 대하여 바로 반박하였다. Elastic은 소스를 오픈하며 오픈소스 활성화를 위해 지금까지 노력하였고, AWS가 우리와 협력했다는 건 거짓말이라고 주장하였다. : <a href="https://www.elastic.co/kr/blog/on-open-distros-open-source-and-building-a-company">https://www.elastic.co/kr/blog/on-open-distros-open-source-and-building-a-company</a></p>
+<h4 id="6-elastic-2019-09-27">6) Elastic (2019-09-27)</h4>
+<p>그리고 Elastic은 곧 AWS를 Elasticsearch 상표권에 대한 무단 사용으로 고소한다. : <a href="https://www.courtlistener.com/docket/16262308/elasticsearch-inc-v-amazoncom-inc/">https://www.courtlistener.com/docket/16262308/elasticsearch-inc-v-amazoncom-inc/</a></p>
+<p>이와 유사한 사례가 많기 때문에 이목이 집중되는 소송 건이며, 2021년 11월 현재 아직 결과가 나오지 않았다. </p>
+<p><img alt="https://www.courtlistener.com/docket/16262308/elasticsearch-inc-v-amazoncom-inc/" src="../2021-img/2021-elastic16.png" /></p>
+<p><a href="https://www.courtlistener.com/docket/16262308/elasticsearch-inc-v-amazoncom-inc/">https://www.courtlistener.com/docket/16262308/elasticsearch-inc-v-amazoncom-inc/</a></p>
+<h4 id="7-elastic-2021-01-15">7) Elastic (2021-01-15)</h4>
+<p>올해 Elastic은 다시 한번 라이선스를 변경하였다. Apache-2.0을 적용했던 모든 부분도 Dual License (SSPL or Elastic License)로 변경하였고, Elastic License 2.0 (<a href="https://www.elastic.co/licensing/elastic-license">https://www.elastic.co/licensing/elastic-license</a>)을 발표하였다. </p>
+<p>결국 Elastic은 오픈소스를 포기하였다. 그리고, 그 원인은 AWS라고 비난하였으며, 구체적으로 다음과 같은 주장 : <a href="https://www.elastic.co/kr/blog/licensing-change">https://www.elastic.co/kr/blog/licensing-change</a></p>
+<ul>
+<li>기업들이 Elasticsearch와 Kibana 제품을 가져다가 Elastic과 협업하지 않고 별개의 서비스로 직접 제공하는 것을 방지하기 위해서이다. : <a href="https://www.elastic.co/kr/blog/why-license-change-AWS">https://www.elastic.co/kr/blog/why-license-change-AWS</a></li>
+<li>즉, Cloud Service Provider가 Elasticsearch와 Kibana를 서비스로 제공하면서도 다시 기여하지 않는 행위를 제한하고자 한다. : <a href="https://www.elastic.co/kr/blog/licensing-change">https://www.elastic.co/kr/blog/licensing-change</a></li>
+<li>이는 무료 개방형으로 배포하는 제품 개발에 대한 지속적인 투자를 보호하기 위해서이다.</li>
+</ul>
+<p>새로운 라이선스 정책은 Elasticsearch 7.11부터 적용하며, 이에 따라 Elasticsearch와 Kibana는 더 이상 오픈소스가 아니다. (Elastic License나 SSPL은 OSI 승인 라이선스가 아님). Elastic은 오픈소스라는 용어 대신 "무료 개방형(Free &amp; Open)", "소스 공유(source-available)"이라고 지칭하였다. </p>
+<h4 id="8-osi-2021-01-19">8) OSI (2021-01-19)</h4>
+<p>4일 후, <a href="https://opensource.org/">OSI</a>(Open Source Initiative) 는 Elastic이 SSPL을 채택한 것에 대하여 SSPL은 Cloud Service Provider가 소프트웨어를 서비스로 제공하는 것(“restrict cloud service providers from offering our software as a service”)을 제한하기 때문에 OSD(Open Source Definition) 6조와 충돌한다는 의견을 나타내었다. </p>
+<aside>
+💡 Open Source Definitions: [https://opensource.org/osd](https://opensource.org/osd)
+
+6. No Discrimination Against Fields of Endeavor
+The license must not restrict anyone from making use of the program in a specific field of endeavor. For example, it may not restrict the program from being used in a business, or from being used for genetic research.
+
+</aside>
+
+<p>그렇기 때문에 OSI는 SSPL이 오픈소스 라이선스가 아니다라고 판단(<a href="https://opensource.org/node/1099">https://opensource.org/node/1099</a>)하면서, 다음과 같은 의견을 추가하였다.  </p>
+<p><em>"하지만, 이런 판단이 Elastic이 SSPL을 선택해서는 안된다는 것은 아니다. 오픈소스만이 모든 사업의 성공을 보장하는 것은 아니다. 사업의 환경에 따라 독점 라이선스를 선택할 수도 있다. 이는 기업의 몫이다. "</em></p>
+<h4 id="9-elastic-2021-01-20">9) Elastic (2021-01-20)</h4>
+<p>바로 다음날, Elastic은 웹사이트에서 Elastic이 오픈소스라는 표현 모두 삭제하였다. 그리고, AWS에 대한 불만을 다시 한번 표출하며, Elastic이 라이선스 변경을 해야만 했던 이유 설명하였다. : <a href="https://www.elastic.co/kr/blog/why-license-change-AWS">https://www.elastic.co/kr/blog/why-license-change-AWS</a></p>
+<h4 id="10-aws-2021-01-21">10) AWS (2021-01-21)</h4>
+<p>바로 그 다음날, AWS는 다음과 같은 이유로 "<em>오픈소스 Elasticsearch를 준비하겠다.</em>"고하며 Elasticsearch를 fork하겠다고 선언한다. </p>
+<ul>
+<li>
+<p>Elastic은 Apache-2.0을 유지하겠다더니, 결국 말을 바꾸었다. : <a href="https://www.elastic.co/kr/what-is/open-x-pack">https://www.elastic.co/kr/what-is/open-x-pack</a></p>
+<p><img alt="2021-img/2021-elastic17.png" src="../2021-img/2021-elastic17.png" /></p>
+</li>
+<li>
+<p>Elastic이 사용하겠다는 SSPL은 오픈소스 라이선스가 아니다. : <a href="https://opensource.org/node/1099">https://opensource.org/node/1099</a></p>
+</li>
+<li>그러므로 Elasticsearch와 Kibana는 더이상 오픈소스가 아니다.</li>
+<li>이 둘을 계속 오픈소스로 사용하기 위해 AWS가 Apache-2.0인 7.10을 fork하여 새로운 오픈소스 커뮤니티를 만들어 가겠다.</li>
+</ul>
+<h4 id="11-aws-2021-04-12">11) AWS / 2021-04-12</h4>
+<p>그리고, 2021년 4월, AWS는 OpenSearch를 출시하였다. : <a href="https://opensearch.org/">https://opensearch.org/</a></p>
+<p><img alt="https://opensearch.org/" src="../2021-img/2021-elastic18.png" /></p>
+<p><a href="https://opensearch.org/">https://opensearch.org/</a></p>
+<p>이는 Elasticsearch와 Kibana 7.10.2를 fork한 프로젝트로써, Elastic과는 완전히 별개의 오픈소스 개발 생태계를 구축하겠다는 의지이다. OpenSearch는 2021년 12월 현재 5만개 이상의 commit, 4천개 이상의 Star를 받으며 크게 성장하고 있다. </p>
+<p><img alt="https://github.com/opensearch-project/OpenSearch" src="../2021-img/2021-elastic19.png" /></p>
+<p><a href="https://github.com/opensearch-project/OpenSearch">https://github.com/opensearch-project/OpenSearch</a></p>
+<h4 id="12-2021-06-23">12) 2021-06-23</h4>
+<p>Elastic &amp; AWS 양측은 두 회사간의 소송이 곧 해결될 수 있다는 내용의 <a href="https://storage.courtlistener.com/recap/gov.uscourts.cand.348946/gov.uscourts.cand.348946.35.0.pdf">법원 문서 제출</a> 하였다. </p>
+<p><img alt="https://storage.courtlistener.com/recap/gov.uscourts.cand.348946/gov.uscourts.cand.348946.35.0.pdf" src="../2021-img/2021-elastic20.png" /></p>
+<p><a href="https://storage.courtlistener.com/recap/gov.uscourts.cand.348946/gov.uscourts.cand.348946.35.0.pdf">https://storage.courtlistener.com/recap/gov.uscourts.cand.348946/gov.uscourts.cand.348946.35.0.pdf</a></p>
+<h3 id="elastic-license-20-elv2">라. Elastic License 2.0 (ELv2)</h3>
+<p>Elastic License 2.0에 대해 조금 더 자세히 알아보겠다. </p>
+<p><img alt="https://www.elastic.co/kr/licensing/elastic-license" src="../2021-img/2021-elastic21.png" /></p>
+<p><a href="https://www.elastic.co/kr/licensing/elastic-license">https://www.elastic.co/kr/licensing/elastic-license</a></p>
+<h4 id="1_2">1) 특징</h4>
+<p>Elastic License 2.0은 오픈소스 라이선스의 거의 모든 자유를 허용 한다. </p>
+<aside>
+💡 The licensor grants you a non-exclusive, royalty-free, worldwide, non-sublicensable, non-transferable license to use, copy, distribute, make available, and prepare derivative works of the software, in each case subject to the limitations and conditions below
+
+</aside>
+
+<p>그리고, Copyleft 특성을 갖지 않는다. 즉, 소프트웨어를 사용, 복사, 배포, 이용 가능하고 소프트웨어의 파생 작품을 준비할 수 있는 권리를 허용한다. </p>
+<h4 id="2_1">2) 제한 사항</h4>
+<p>하지만, Elastic License 2.0은 다음 3가지 제한 사항 요구한다. </p>
+<ol>
+<li>
+<p>제품을 다른 사람에게 관리형 서비스로 제공할 수 없음.</p>
+<p><aside>
+💡 You may not provide the software to third parties as a hosted or managed service, where the service provides users with access to any substantial set of the features or functionality of the software.</p>
+</aside>
+<ul>
+<li>Amazon Elasticsearch Service처럼 Elastic 제품을 가져다가 서비스로 제품을 직접 판매하거나 제품 재배포 불가</li>
+<li>라이선스 키 기능을 우회하거나 라이선스 키로 보호되는 기능을 제거/숨길 수 없음.</li>
+</ul>
+<p><aside>
+💡 You may not move, change, disable, or circumvent the license key functionality in the software, and you may not remove or obscure any functionality in the software that is protected by the license key.</p>
+</aside>
+<ul>
+<li>소스 코드를 해킹하는 등 구독하지 않고 유료 기능에 액세스해서는 안됨</li>
+<li>라이선스, 저작권 또는 기타 통지를 제거하거나 숨길 수 없음.</li>
+</ul>
+<p><aside>
+💡 You may not alter, remove, or obscure any licensing, copyright, or other notices of the licensor in the software. Any use of the licensor’s trademarks is subject to applicable law.</p>
+</aside>
+<ul>
+<li>Elasticsearch 및 Kibana 용어, 제품 내 로고 등과 같은 라이선스, 저작권 또는 상표에 대한 통지(notice)를 사람들이 삭제하지 못하도록 함으로써 Elastic의 소프트웨어와 브랜드를 보호</li>
+</ul>
+</li>
+</ol>
+<h4 id="3">3) 버전 별 라이선스 정책 변화</h4>
+<p>Elastic 제품의 버전에 따라 라이선스 정책 변화는 다음 그림에서 확인할 수 있다. </p>
+<p><img alt="https://www.elastic.co/kr/blog/elastic-license-v2" src="../2021-img/2021-elastic22.png" /></p>
+<p><a href="https://www.elastic.co/kr/blog/elastic-license-v2">https://www.elastic.co/kr/blog/elastic-license-v2</a></p>
+<p><img alt="https://www.elastic.co/subscriptions" src="../2021-img/2021-elastic23.png" /></p>
+<p><a href="https://www.elastic.co/subscriptions">https://www.elastic.co/subscriptions</a></p>
+<p><em>1 SSPL or Elastic License 2.0
+2 Elastic License 2.0</em></p>
+<h4 id="4-elastic-license-elastic">4) Elastic License에 대한 Elastic의 설명</h4>
+<p>Elastic은 이러한 라이선스 정책 변경에 대하여 다음과 같이 설명한다. : <a href="https://www.elastic.co/kr/blog/licensing-change">https://www.elastic.co/kr/blog/licensing-change</a></p>
+<ul>
+<li>우리 커뮤니티의 대부분은 실제로 아무런 변화도 경험하지 못할 것</li>
+<li>Elastic Cloud나 온프레미스의 Elastic 고객인 경우, 아무것도 변경되지 않음</li>
+<li>기본 배포판을 다운로드하여 사용하고 있었다면, 동일한 Elastic License에 따라 여전히 무료 개방형임</li>
+<li>Elasticsearch나 Kibana에 기여하는 것도 아무것도 달라지지 않음</li>
+</ul>
+<h3 id="_2">마. 무엇이 옳은가?</h3>
+<h4 id="1-amazon">1) Amazon의 주장이 옳은가?</h4>
+<p><a href="http://www.digitaltoday.co.kr/news/articleView.html?idxno=261418&amp;fbclid=IwAR1DPni7_oJkhHLs_LV2f8YabFK2H8zYVnYEyl95pQDMzo8k_soNwwUHyno">http://www.digitaltoday.co.kr/news/articleView.html?idxno=261418&amp;fbclid=IwAR1DPni7_oJkhHLs_LV2f8YabFK2H8zYVnYEyl95pQDMzo8k_soNwwUHyno</a></p>
+<ul>
+<li>Elastic이 Apache-2.0에서 SSPL or ELv2로 바꾼 것은 진정한 오픈소스 정신에 위배되는 폐쇄적인 선택이다.</li>
+<li>Contributor는 오픈소스 커뮤니티에 기여한 것이지 Elastic의 이익을 위해 기여한 것이 아니다.</li>
+<li>Elastic의 License 변경 때문에 Elasticsearch가 fork되면서 파편화되었다.</li>
+<li>이러한 분쟁 속에 오픈소스 생태계는 점점 폐쇄적으로 바뀌고 있다.</li>
+</ul>
+<h4 id="2-elastic">2) Elastic의 주장이 옳은가?</h4>
+<p><a href="https://blog.outsider.ne.kr/1533">https://blog.outsider.ne.kr/1533</a></p>
+<ul>
+<li>Cloud Provider는 새롭게 주류가 된 오픈소스를 바로바로 Saas로 제공할 수 있는 아주 유리한 위치이다.</li>
+<li>이런 일이 반복되면 굳이 힘들여서 오픈소스를 열심히 만들지 않을 것이며, 기술의 발전도 사라질 것이다.</li>
+<li>오픈소스 생태계의 성장을 고려한다면, Elastic의 대응이 올바르다.</li>
+</ul>
+<h4 id="3_1">3) 오픈소스 생태계를 고려하는게 맞나?</h4>
+<p>Elastic이 오픈소스 생태계에 도움을 주고 있는게 맞는건지에 대해 한 블로그에서는 아래와 같이 부정적인 의견을 제시하였다. : <a href="https://www.percona.com/blog/2021/02/02/why-sspl-is-bad-for-you-part-2/">https://www.percona.com/blog/2021/02/02/why-sspl-is-bad-for-you-part-2/</a></p>
+<ul>
+<li>Elastic은 very permissive license다가 갑자기 SSPL로 변경한 것이다.<ul>
+<li>차라리 mongoDB는 SSPL로 변경하기 전에 AGPL이라는 strong-copyleft였다.</li>
+<li>Google등의 회사는 어차피 정책상 AGPL을 금지했기 때문에 mongoDB의 라이선스 변경으로 타격을 받지 않았을 것이다.</li>
+<li>이에 반해 Elastic의 라이선스 변경은 기업들에게 갑작스러운 충격이 되었다.</li>
+</ul>
+</li>
+<li>
+<p>Elastic의 성장은 1,500명 이상의 대규모 (개인 뿐만 아니라 기업) contrubitor 에 의해서이다.</p>
+<ul>
+<li>이는, Apache-2.0이기때문에 가능한 일이었다.</li>
+<li>Shay (Elastic 창업자)는 결코 Apache-2.0이라는 라이선스를 변경하지 않겠다고 했기 때문에 기업들도 Elastic에 활발히 기여하였다.</li>
+</ul>
+<p><img alt="https://twitter.com/QuinnyPig/status/1350205491750662146/photo/1" src="../2021-img/2021-elastic24.png" /></p>
+<p><a href="https://twitter.com/QuinnyPig/status/1350205491750662146/photo/1">https://twitter.com/QuinnyPig/status/1350205491750662146/photo/1</a></p>
+<p><img alt="https://twitter.com/QuinnyPig/status/1350205491750662146/photo/2" src="../2021-img/2021-elastic25.png" /></p>
+<p><a href="https://twitter.com/QuinnyPig/status/1350205491750662146/photo/2">https://twitter.com/QuinnyPig/status/1350205491750662146/photo/2</a></p>
+<ul>
+<li>Elastic이 SSPL로 라이선스가 변경될 걸 알았다면 기여할 사람은 많지 않았을 것이다.<ul>
+<li>SSPL은 Contributor조차 SSPL 코드를 마음대로 쓸 수 없게 만들 수 있다.</li>
+<li>결국 Contributor는 떠나고, 커뮤니티는 약화될 것이다.</li>
+</ul>
+</li>
+<li>SSPL은 Licensor 기업만이 SaaS/DBaaS 시장을 독점하게 한다.</li>
+<li>mongoDB가 SSPL로 DBaaS 시장을 을 독점하게 되면 이게 생태계를 위해 좋을까? : <a href="https://www.percona.com/blog/2020/06/16/why-is-mongodbs-sspl-bad-for-you/">https://www.percona.com/blog/2020/06/16/why-is-mongodbs-sspl-bad-for-you/</a></li>
+<li>시장을 독점한 mongoDB DBaaS의 가격은 쎄질 것. Oracle을 보라. : <a href="https://www.percona.com/blog/2020/05/26/is-mongodb-the-new-oracle/">https://www.percona.com/blog/2020/05/26/is-mongodb-the-new-oracle/</a></li>
+</ul>
+</li>
+</ul>
+<h3 id="_3">바. 다른 사례가 있다면?</h3>
+<p><a href="http://www.ddaily.co.kr/news/article/?no=208784&amp;fbclid=IwAR3ZT0XPOk8k5vgq5cGISDNdJx-NX2hxZlEO6mS8H_5dzD1eVAz0_pcd_Pc">구글 클라우드의 경우</a>,  일부 오픈소스 업체와 협력해 관련 서비스에 대한 수익을 나누는 방식으로 사업을 진행하고 있다. 레디스, 몽고DB, 엘라스틱, 데이터스택스, 네오4j 등이 대표적이다. 이들은 오픈소스 기업과 파트너십을 채결해 구글 클라우드 콘솔에서 이들 DB를 직접 제공하는 식이다.</p>
+<p>예를 들어 <a href="https://blog.naver.com/n_cloudplatform/222265285120">네이버 클라우드</a>는 MongoDB와 파트너쉽을 통해 MongoDB 서비스 제공</p>
+<p><img alt="Untitled" src="../2021-img/2021-elastic26.png" /></p>
+<h2 id="4">4. 어쨌든 진화하는 오픈소스 라이선스</h2>
+<p>GPL과 같은 바이너리 전용 라이선스는 1980년대 PC / Mac 플랫폼 표준화의 산물이었다. 시간이 지남에 따라 소프트웨어의 배포 형식과 방법은 크게 달라졌고, 사용자와 개발자 모두에게 공정한 패러다임의 필요성을 업계가 인식하기 시작하면서 여러 형태의 라이선스들이 생겨나고 있다. </p>
+<h3 id="fair-code-httpsfaircodeio">가. Fair Code : <a href="https://faircode.io/">https://faircode.io/</a></h3>
+<p>Fair-code(<a href="https://faircode.io/">https://faircode.io/</a>)는 다음과 같은 특징을 갖는 소프트웨어 모델을 제안한다. </p>
+<ul>
+<li>누구나 무료로 사용하고 배포할 수 있음</li>
+<li>소스 코드가 공개되어 있음</li>
+<li>공공 및 개인 커뮤니티로 확장 가능</li>
+<li>저자만 상업적 이용이 가능함 (저자 이외 상업적 이용을 원하는 자는 저자와 협의해야 함)</li>
+</ul>
+<p><img alt="https://faircode.io/" src="../2021-img/2021-elastic27.png" /></p>
+<p><a href="https://faircode.io/">https://faircode.io/</a></p>
+<p>Fair code는 다음 세가지 라이선스가 Fair code의 모든 요구 사항을 충족한다고 하며, 여기에는 Elastic License 2.0도 포함된다. </p>
+<ol>
+<li>
+<p>Commons Clause with any OSI approved open-source license : <a href="https://commonsclause.com/">https://commonsclause.com</a></p>
+<p><img alt="https://commonsclause.com/" src="../2021-img/2021-elastic28.png" /></p>
+<p><a href="https://commonsclause.com/">https://commonsclause.com/</a></p>
+</li>
+<li>
+<p>Confluent Community License : <a href="https://www.confluent.io/confluent-community-license/">https://www.confluent.io/confluent-community-license</a></p>
+</li>
+<li>Elastic License 2.0 (ELv2) : <a href="https://www.elastic.co/licensing/elastic-license/">https://www.elastic.co/licensing/elastic-license</a></li>
+</ol>
+<h3 id="polyform-project">나. PolyForm Project</h3>
+<p>PolyForm Project는 2020년 시작하여, 표준화된 소프트웨어 라이선스를 만들어가는 것을 목표로 하는 변호사 및 개발자로 이루어진 그룹이다. : <a href="https://polyformproject.org/">https://polyformproject.org/</a></p>
+<p>다음과 같이 표준화된 라이선스 제품군을 개발하여 공개하였다. (Creative Commons와 유사한 형태)</p>
+<p><img alt="https://polyformproject.org/licenses/" src="../2021-img/2021-elastic29.png" /></p>
+<p><a href="https://polyformproject.org/licenses/">https://polyformproject.org/licenses/</a></p>
+<h3 id="shard-source-software">다. 오픈소스 이후 시대가 시작되었다, "Shard Source Software"</h3>
+<p>오픈소스가 진화하고 있고, 이런 변화를 유발하는 요인과 원동력과 각 라이선스 형태의 특징에 대하여 분석한 한 블로그에서는 이제 오픈소스 이후의 시대가 시작되었고, "Shard Source Software"가 확산되고 있음을 설명하였다. 이를 소개하며 글을 마친다. </p>
+<p><img alt="https://monetize.substack.com/p/open-source-eras" src="../2021-img/2021-elastic30.png" /></p>
+<p><a href="https://monetize.substack.com/p/open-source-eras">https://monetize.substack.com/p/open-source-eras</a></p>
+<p><img alt="https://monetize.substack.com/p/open-source-eras" src="../2021-img/2021-elastic31.png" /></p>
+<p><a href="https://monetize.substack.com/p/open-source-eras">https://monetize.substack.com/p/open-source-eras</a></p>
+<h2 id="5">5. 마치며</h2>
+<p>오픈소스 컴플라이언스 활동이라고 하면 기업이 오픈소스를 사용하여 제품과 서비스를 배포하면서 고지와 소스 공개를 통해 라이선스 의무를 잘 준수하면 됐었다. Apache-2.0, GPL-3.0 등 OSI 인증 라이선스하의 오픈소스에 대해서만 관리하면 됐었다. 하지만 이제는 여러 형태의 소프트웨어 배포 방식과 라이선스 형태가 새롭게 생겨나고 있다. 소프트웨어를 재배포하지 않더라도, 혹은 OSI 인증 라이선스하의 소프트웨어가 아니라도 기업이 세심하게 관리해야 하는 필요성이 생기고 있다. 이런 관리를 소홀히 하게 될 경우, 막대한 라이선스 비용을 청구 받을 수 있는 실정이다. 기업의 오픈소스 컴플라이언스 활동 범위를 확대해야 할 이유가 여기에 있다. 기업의 '오픈소스 컴플라이언스'를 위한 담당 조직은 '소프트웨어 자산 관리 (SAM : Software Asset Management)' 조직과 긴밀한 협력 혹은 통합이 요구되는 시점이다.</p>
+
+              
+            </article>
+            
+          </div>
+        </div>
+        
+          <a href="#" class="md-top md-icon" data-md-component="top" hidden>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+            맨위로
+          </a>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+    <nav class="md-footer__inner md-grid" aria-label="Footer" >
+      
+        
+        <a href="../" class="md-footer__link md-footer__link--prev" aria-label="이전: 2021년 연구 과제" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                이전
+              </span>
+              2021년 연구 과제
+            </div>
+          </div>
+        </a>
+      
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.instant", "navigation.tracking", "navigation.tabs", "navigation.sections", "navigation.expand", "navigation.top"], "search": "../../../assets/javascripts/workers/search.85cb4492.min.js", "translations": {"clipboard.copied": "\ud074\ub9bd\ubcf4\ub4dc\uc5d0 \ubcf5\uc0ac\ub428", "clipboard.copy": "\ud074\ub9bd\ubcf4\ub4dc\ub85c \ubcf5\uc0ac", "search.config.lang": "en", "search.config.pipeline": " ", "search.config.separator": "[\\s\\-]+", "search.placeholder": "\uac80\uc0c9", "search.result.more.one": "\uc774 \ubb38\uc11c\uc5d0\uc11c 1\uac1c\uc758 \uac80\uc0c9 \uacb0\uacfc \ub354 \ubcf4\uae30", "search.result.more.other": "\uc774 \ubb38\uc11c\uc5d0\uc11c #\uac1c\uc758 \uac80\uc0c9 \uacb0\uacfc \ub354 \ubcf4\uae30", "search.result.none": "\uac80\uc0c9\uc5b4\uc640 \uc77c\uce58\ud558\ub294 \ubb38\uc11c\uac00 \uc5c6\uc2b5\ub2c8\ub2e4", "search.result.one": "1\uac1c\uc758 \uc77c\uce58\ud558\ub294 \ubb38\uc11c", "search.result.other": "#\uac1c\uc758 \uc77c\uce58\ud558\ub294 \ubb38\uc11c", "search.result.placeholder": "\uac80\uc0c9\uc5b4\ub97c \uc785\ub825\ud558\uc138\uc694", "search.result.term.missing": "\ud3ec\ud568\ub418\uc9c0 \uc54a\uc740 \uac80\uc0c9\uc5b4", "select.version.title": "\ubc84\uc804 \uc120\ud0dd"}}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.a877e258.min.js"></script>
+      
+    
+  </body>
+</html>
