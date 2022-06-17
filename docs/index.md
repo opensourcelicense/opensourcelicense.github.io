@@ -1,17 +1,21 @@
-# Welcome to MkDocs
+# Intro
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+    오픈소스 라이선스 전문가 커뮤니티 소개
+    ...
+    ...
 
-## Commands
+## 전문가
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+    오픈소스 라이선스 전문가 소개
 
-## Project layout
+ | 전문 분야       | 연구자                                         | 소속 |
+| :---------------- | :---------------------------------------------- | --- |
+ | ...       | ...                                         | ... | 
+ | ...       | ...                                         | ... | 
+ | ...       | ...                                         | ... | 
+ | ...       | ...                                         | ... | 
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+## 연구 성과
+* [2022년](research/index.md)
+* [2021년](research/2021/index.md)
+

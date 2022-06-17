@@ -1,4 +1,11 @@
-site_name: 한국저작권위원회 오픈소스SW 라이선스 전문가 커뮤니티
+site_name: 오픈소스 라이선스 전문가 커뮤니티
 theme:
   name: material
   language: kr
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
