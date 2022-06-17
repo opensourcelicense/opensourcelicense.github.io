@@ -11,7 +11,7 @@
 
 ## 2. 오픈소스 라이선스 역사
 
-#### 가. 유닉스
+### 가. 유닉스
 
 UNIX는 1973년 AT&T 벨연구소에서 발표하였다. 1950년대 AT&T가 IBM과 맺은 협약(컴퓨터 사업 진출 불가)때문에 저렴한 가격($99)으로 소스코드와 함께 제공하였다. 또한 버클리대학에 연구목적으로 무료로 제공하였다. 
 
@@ -22,11 +22,11 @@ UNIX는 1973년 AT&T 벨연구소에서 발표하였다. 1950년대 AT&T가 IBM�
 [https://upload.wikimedia.org/wikipedia/commons/c/c5/Unix_timeline.en.png](https://upload.wikimedia.org/wikipedia/commons/c/c5/Unix_timeline.en.png)
 
 
-#### 나. 자유소프트웨어 운동과 GPL
+### 나. 자유소프트웨어 운동과 GPL
 
 1984년, 리차드 스톨만은 이맥스 편집기 GNU 버전을 개발하였다. 그리고, 1985년 Free Software Foundation을 설립하여 사유화되는 유닉스를 대체하고자 하였다. 그는 소스 코드에 대한 접근, 개선 및 변경 사항을 만들고 공유할 수 있는 권리 주장하였고, GPL (GNU General Public) License를 만들어서 바이너리 배포자는 해당 소스 코드를 공유해야 한다고 주장하였다. 당시 대부분의 소프트웨어는 직접 설치(on-premise) 방식이기 때문에 GPL 효과적은 효과적인 라이선스였다. 
 
-#### 다. 네트워크 서비스 출현과 AGPL
+### 다. 네트워크 서비스 출현과 AGPL
 
 2000년대 이후 네트워크 서비스가 보편화되면서 더 이상 소프트웨어를 배포하지 않고도 고객에게 서비스를 제공할 수 있게 되었다. 이에 대응하기 위해 Free Software Foundation은 GPL을 부분 변경한 AGPL-3.0을 만들었다
 
